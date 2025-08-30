@@ -1,0 +1,21 @@
+# Entorno virtual de Python (venv, .env, etc.)
+.env/
+venv/
+.env*/
+
+# Archivos sensibles (credenciales, variables de entorno)
+.env
+*.env
+.env.local
+
+# Otros archivos comunes a ignorar (opcional)
+__pycache__/
+*.py[cod]
+*.log
+*.sqlite3
+.code-workspace
+
+# Entorno virtual de Python (venv o env)
+env/
+venv/
+cenv/
